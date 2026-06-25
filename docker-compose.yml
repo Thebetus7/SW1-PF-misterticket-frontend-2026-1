@@ -1,0 +1,10 @@
+services:
+  frontend:
+    build: .
+    container_name: misterticket_frontend
+    restart: always
+    ports:
+      - "80:3000"  # Expone el puerto 80 del servidor hacia el 3000 del contenedor
+    environment:
+      # URL pública de tu backend EC2 (ej. http://IP_EC2_BACKEND/api)
+      - NEXT_PUBLIC_API_URL=http://TU_IP_PUBLICA_EC2_BACKEND/api

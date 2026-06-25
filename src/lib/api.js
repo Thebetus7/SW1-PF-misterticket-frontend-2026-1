@@ -1,5 +1,5 @@
 import Cookies from 'js-cookie';
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://6kmpstrj-8000.brs.devtunnels.ms/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
 
 /**
  * Cliente básico para hacer peticiones API.
