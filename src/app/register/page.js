@@ -39,7 +39,6 @@ export default function RegisterPage() {
   
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
-  const router = useRouter();
 
   const handleChange = (e) => {
     setFormData({
