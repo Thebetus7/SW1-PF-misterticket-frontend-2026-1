@@ -1,5 +1,5 @@
 import Cookies from 'js-cookie';
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://18.224.252.142/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
 
 /**
  * Cliente básico para hacer peticiones API.
